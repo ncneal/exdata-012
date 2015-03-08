@@ -24,5 +24,5 @@ The code downloads this data and unzips the file into the current working direct
 ### Code
 ----
 
-* 'getData.r' : data is read from a text file including only the dates needed to avoid memory issues. The Date and Time field are combined and coerrced to a single datetime field for furhter processing.
+* 'getData.r' : data is read from a text file filtered on only the dates needed, to avoid memory issues. The Date and Time field are combined and transformed into a new datetime field.
 * 'plot1.r'-'plot4.r' : creates plots that are output as PNG images into the current working directory in a directory named 'Project1'.
