@@ -1,0 +1,7 @@
+png(file = "./project1/plot3.png")
+plot(householdPowerConsumption$dateTime, householdPowerConsumption$Sub_metering_1, type="n", ylab="Energy Sub Metering", xlab="")
+lines(householdPowerConsumption$dateTime, householdPowerConsumption$Sub_metering_1, col="black")
+lines(householdPowerConsumption$dateTime, householdPowerConsumption$Sub_metering_2, col="red")
+lines(householdPowerConsumption$dateTime, householdPowerConsumption$Sub_metering_3, col="blue")
+legend("topright",  lty=1, col=c("black", "blue", "red"), cex=0.7, legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+dev.off()
