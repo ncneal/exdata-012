@@ -23,4 +23,4 @@ https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumptio
 ----
 
 * 'getData.r' : data is read from the downloaded and unzipped text file into a data frame, but first filtered on only the dates needed, to avoid memory issues. Next, the Date and Time fields are concatenated, transformed and appended into a new column 'dateTime'.
-* 'plot1.r'-'plot4.r' : creates plots that are output as PNG images into the current working directory in a directory named 'Project1'.
+* 'plot1.r'-'plot4.r' : creates plots that are output as PNG images into the current working directory.
